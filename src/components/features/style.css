@@ -1,0 +1,67 @@
+.features{
+    width: 100%;
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    border-radius: 26px;
+    padding: 20px;
+    min-height: 600px;
+}
+.featuresHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+
+}
+.feature{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+.feature > span{
+    text-align: center;
+}
+
+.active{
+    box-shadow: #FFFFFF 0 3px ,#FFFFFF 0 -3px inset;
+}
+.featuresContent{
+    display: flex;
+}
+.contentInfo{
+    display: flex;
+    flex-direction: column;
+
+}
+.contentTitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+}
+.opportunity{
+    display: flex;
+    gap:10px
+}
+.reserveBtn{
+    width: 300px;
+    height: 54px;
+    background: #8276FF;
+    border: none;
+    border-radius: 31.0938px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}

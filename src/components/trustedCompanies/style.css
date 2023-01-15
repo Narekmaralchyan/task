@@ -1,0 +1,8 @@
+.trustedCompanies{
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

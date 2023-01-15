@@ -1,0 +1,43 @@
+.infoContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:25px;
+}
+span{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.007em;
+}
+.saveBtn{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    width: 211px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.trialInfo ,.reviewsInfo{
+    display: flex;
+    gap: 5px;
+}
+.logos{
+    display: flex;
+    gap: 15px;
+}

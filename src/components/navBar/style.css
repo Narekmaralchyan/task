@@ -1,0 +1,25 @@
+.navBar{
+    height: 74px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.getNowBtn {
+    border: 1px solid #8276FF;
+    background: none;
+    color: white;
+    width: 175px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 131px;
+}
